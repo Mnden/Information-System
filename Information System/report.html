@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reports</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  
+
+<div class="content">
+  <h2>Reports</h2>
+  <form id="reportForm">
+    <label for="reportType">Select Report Type:</label>
+    <select id="reportType" name="reportType">
+      <option value="population">Population Report</option>
+      <option value="infrastructure">Infrastructure Report</option>
+      <option value="residents">Residents Report</option>
+    </select><br><br>
+    <button type="submit">Generate Report</button>
+  </form>
+  <div id="reportResult"></div>
+</div>
+<script src="report.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infrastructure Information</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  
+<div class="content">
+  <h2>Infrastructure Information</h2>
+  <form id="infrastructureForm">
+    <label for="infrastructureType">Infrastructure Type:</label>
+    <input type="text" id="infrastructureType" name="infrastructureType" required><br><br>
+    <label for="infrastructureName">Infrastructure Name:</label>
+    <input type="text" id="infrastructureName" name="infrastructureName" required><br><br>
+    <label for="infrastructureVillage">Village:</label>
+    <input type="text" id="infrastructureVillage" name="infrastructureVillage" required><br><br>
+    <button type="submit">Add Infrastructure</button>
+  </form>
+  <h3>Existing Infrastructure</h3>
+  <table id="infrastructureTable">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Village</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Infrastructure information rows will be inserted here -->
+    </tbody>
+  </table>
+</div>
+<script src="infrastructure.js"></script>
+</body>
+</html>
